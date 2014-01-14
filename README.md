@@ -9,10 +9,9 @@ Never used the Postman extension before? Check out this link.
 
 By the way, this is still very much under construction. Don't expect any level of completeness for a while.
 
-### Resources and other stuff
-* OAuth 2.0
-* Payments
-* Refunds
-* Payment authorizations
-* Captured payments
-* Stored credit card tokens (Vault)
+### PayPal resources we have collections for so far:
+* [OAuth 2.0](https://github.com/UnexpectedEOF/paypal-rest-postman-collections/blob/master/collections/PayPal-REST-OAuth.json)
+* [Payments](https://github.com/UnexpectedEOF/paypal-rest-postman-collections/blob/master/collections/PayPal-REST-Payments.json)
+* [Refunds](https://github.com/UnexpectedEOF/paypal-rest-postman-collections/blob/master/collections/PayPal-REST-Refunds.json)
+* [Sales](https://github.com/UnexpectedEOF/paypal-rest-postman-collections/blob/master/collections/PayPal-REST-Sales.json)
+* [Stored/tokenized credit card (Vault)](https://github.com/UnexpectedEOF/paypal-rest-postman-collections/blob/master/collections/PayPal-REST-Vault.json)
