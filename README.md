@@ -11,6 +11,8 @@ Never used the Postman extension before? Check out [this link for a tutorial](ht
 * [Payments](https://github.com/UnexpectedEOF/paypal-rest-postman-collections/blob/master/collections/PayPal-REST-Payments.json)
 * [Refunds](https://github.com/UnexpectedEOF/paypal-rest-postman-collections/blob/master/collections/PayPal-REST-Refunds.json)
 * [Sales](https://github.com/UnexpectedEOF/paypal-rest-postman-collections/blob/master/collections/PayPal-REST-Sales.json)
+* [Captures](https://github.com/UnexpectedEOF/paypal-rest-postman-collections/blob/master/collections/PayPal-REST-Captures.json)
+* [Authorizations](https://github.com/UnexpectedEOF/paypal-rest-postman-collections/blob/master/collections/PayPal-REST-Authorizations.json)
 * [Stored/tokenized credit card (Vault)](https://github.com/UnexpectedEOF/paypal-rest-postman-collections/blob/master/collections/PayPal-REST-Vault.json)
 
 By the way, this is still very much under construction. Don't expect any level of completeness for a while.
