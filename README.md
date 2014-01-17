@@ -37,4 +37,4 @@ Progress
 * [Authorizations](https://github.com/UnexpectedEOF/paypal-rest-postman-collections/blob/master/collections/PayPal-REST-Authorizations.json)
 * [Stored/tokenized credit card (Vault)](https://github.com/UnexpectedEOF/paypal-rest-postman-collections/blob/master/collections/PayPal-REST-Vault.json)
 
-By the way, this is still very much under construction. Don't expect any level of completeness for a while.
+By the way, this is still very much under construction. Don't expect any level of completeness for a while. But do feel free to note any issues or to fork and make pull requests. Thanks!
