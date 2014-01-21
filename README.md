@@ -9,7 +9,7 @@ Never used the Postman extension before? Check out [this link for a tutorial](ht
 How to use this thing
 ======
 
-Before getting started, make sure you have a PayPal account. Also, install Chrome and Postman.
+Before getting started, make sure you have a PayPal account. Also, install Chrome and Postman (at least 0.8.4.3).
 
 ###1. Create an app on the PayPal Developer Portal
 Sign into http://developer.paypal.com with your PayPal account. Once you're there, go to [Your Apps](http://developer.paypal.com/webapps/developer/applications/myapps) and create a new app. *Take note of your "Client ID" and "Secret" under "Test credentials".*
@@ -38,3 +38,11 @@ Progress
 * [Stored/tokenized credit card (Vault)](https://github.com/UnexpectedEOF/paypal-rest-postman-collections/blob/master/collections/PayPal-REST-Vault.json)
 
 By the way, this is still very much under construction. Don't expect any level of completeness for a while. But do feel free to note any issues or to fork and make pull requests. Thanks!
+
+
+Release Notes
+======
+
+-This is the first time I'm writing these. The collections don't really have versions yet.
+-Thanks to a hint from the great people at Postman, I'll soon include their cool Jetpack testing features.
+-The Identity endpoints and calls aren't up here yet because I haven't had a chance to test them. I'll remedy that shortly.
