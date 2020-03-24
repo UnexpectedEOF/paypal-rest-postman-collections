@@ -1,1 +1,32 @@
-{"id":"2d299e82-509f-7f99-68ec-adef7496b757","name":"PayPal-REST-Captures","timestamp":1389763426508,"requests":[{"collectionId":"2d299e82-509f-7f99-68ec-adef7496b757","id":"748cad2a-8a32-1519-6190-1eb24484ddab","name":"Refund a Captured Payment","description":"Fully or partially refund a captured payment.\n\nRef: https://developer.paypal.com/webapps/developer/docs/api/#refund-a-captured-payment","url":"{{sandbox_endpoint}}/payments/capture/{capture-id}/refund","method":"GET","headers":"Accept: application/json\nAccept-Language: en_US\nContent-Type: application/json\nAuthorization: Bearer {{access_token}}\n","data":"","dataMode":"raw","timestamp":0,"responses":[],"version":2},{"collectionId":"2d299e82-509f-7f99-68ec-adef7496b757","id":"aa18387f-acdd-cbbc-7f10-940e930f6746","name":"Look up a Captured Payment","description":"Retrieve information about a captured payment.\n\nRef: https://developer.paypal.com/webapps/developer/docs/api/#look-up-a-captured-payment","url":"{{sandbox_endpoint}}/payments/capture/{capture-id}","method":"GET","headers":"Accept: application/json\nAccept-Language: en_US\nContent-Type: application/json\nAuthorization: Bearer {{access_token}}\n","data":"","dataMode":"raw","timestamp":0,"version":2,"time":1389763567967}]}
+{
+    "id": "2d299e82-509f-7f99-68ec-adef7496b757",
+    "name": "PayPal-REST-Captures",
+    "timestamp": 1389763426508,
+    "requests": [{
+        "collectionId": "2d299e82-509f-7f99-68ec-adef7496b757",
+        "id": "748cad2a-8a32-1519-6190-1eb24484ddab",
+        "name": "Refund a Captured Payment",
+        "description": "Fully or partially refund a captured payment.\n\nRef: https://developer.paypal.com/webapps/developer/docs/api/#refund-a-captured-payment",
+        "url": "{{sandbox_endpoint}}/payments/capture/{capture-id}/refund",
+        "method": "GET",
+        "headers": "Accept: application/json\nAccept-Language: en_US\nContent-Type: application/json\nAuthorization: Bearer {{access_token}}\n",
+        "data": "",
+        "dataMode": "raw",
+        "timestamp": 0,
+        "responses": [],
+        "version": 2
+    }, {
+        "collectionId": "2d299e82-509f-7f99-68ec-adef7496b757",
+        "id": "aa18387f-acdd-cbbc-7f10-940e930f6746",
+        "name": "Look up a Captured Payment",
+        "description": "Retrieve information about a captured payment.\n\nRef: https://developer.paypal.com/webapps/developer/docs/api/#look-up-a-captured-payment",
+        "url": "{{sandbox_endpoint}}/payments/capture/{capture-id}",
+        "method": "GET",
+        "headers": "Accept: application/json\nAccept-Language: en_US\nContent-Type: application/json\nAuthorization: Bearer {{access_token}}\n",
+        "data": "",
+        "dataMode": "raw",
+        "timestamp": 0,
+        "version": 2,
+        "time": 1389763567967
+    }]
+}

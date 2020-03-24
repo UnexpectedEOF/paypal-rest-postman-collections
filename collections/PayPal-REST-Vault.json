@@ -1,1 +1,45 @@
-{"id":"000e4a27-c1d1-1b43-d80f-66510892b62a","name":"PayPal-REST-Vault","timestamp":1389734102356,"requests":[{"collectionId":"000e4a27-c1d1-1b43-d80f-66510892b62a","id":"1de5e578-17be-f727-407c-5afee8162e2c","name":"Look Up a Stored Credit Card","description":"Fetch information about a stored tokenized card.\n\nRef: https://developer.paypal.com/webapps/developer/docs/api/#look-up-a-stored-credit-card","url":"{{sandbox_endpoint}}/vault/credit-card/{credit-card-id}","method":"GET","headers":"Accept: application/json\nAccept-Language: en_US\nContent-Type: application/json\nAuthorization: Bearer <YOUR TOKEN HERE>\n","data":"{\n \"payer_id\":\"user12345\",\n \"type\":\"visa\",\n \"number\":\"4417119669820331\",\n \"expire_month\":\"11\",\n \"expire_year\":\"2018\",\n \"first_name\":\"Joe\",\n \"last_name\":\"Shopper\",\n \"address\": {\n                \"line1\": \"52 N Main ST\",\n                \"city\": \"Johnstown\",\n                \"state\": \"OH\",\n                \"postal_code\": \"43210\",\n                \"country_code\": \"US\"\n              }\n}","dataMode":"raw","timestamp":0,"version":2,"time":1389735475313},{"collectionId":"000e4a27-c1d1-1b43-d80f-66510892b62a","id":"37f06891-81da-dbb2-600c-8046108d0749","name":"Delete a Stored Credit Card","description":"Delete (most of) the details for a card you stored in the Vault. Some data remains available.\n\nRef: https://developer.paypal.com/webapps/developer/docs/api/#delete-a-stored-credit-card","url":"{{sandbox_endpoint}}/vault/credit-card/{credit-card-id}","method":"DELETE","headers":"Accept: application/json\nAccept-Language: en_US\nContent-Type: application/json\nAuthorization: Bearer <YOUR TOKEN HERE>\n","data":"","dataMode":"raw","timestamp":0,"version":2,"time":1389735449079},{"collectionId":"000e4a27-c1d1-1b43-d80f-66510892b62a","id":"f6f5cbd5-c7e7-2ad7-025d-09bdf897a27e","name":"Store a Credit Card","description":"Securely store a tokenized credit card on PayPal's servers.\n\nRef: https://developer.paypal.com/webapps/developer/docs/api/#store-a-credit-card","url":"{{sandbox_endpoint}}/vault/credit-card","method":"POST","headers":"Accept: application/json\nAccept-Language: en_US\nContent-Type: application/json\nAuthorization: Bearer <YOUR TOKEN HERE>\n","data":"{\n \"payer_id\":\"user12345\",\n \"type\":\"visa\",\n \"number\":\"4417119669820331\",\n \"expire_month\":\"11\",\n \"expire_year\":\"2018\",\n \"first_name\":\"Joe\",\n \"last_name\":\"Shopper\",\n \"billing_address\": {\n                \"line1\": \"52 N Main ST\",\n                \"city\": \"Johnstown\",\n                \"state\": \"OH\",\n                \"postal_code\": \"43210\",\n                \"country_code\": \"US\"\n              }\n}","dataMode":"raw","timestamp":0,"version":2,"time":1389735542793}]}
+{
+    "id": "000e4a27-c1d1-1b43-d80f-66510892b62a",
+    "name": "PayPal-REST-Vault",
+    "timestamp": 1389734102356,
+    "requests": [{
+        "collectionId": "000e4a27-c1d1-1b43-d80f-66510892b62a",
+        "id": "1de5e578-17be-f727-407c-5afee8162e2c",
+        "name": "Look Up a Stored Credit Card",
+        "description": "Fetch information about a stored tokenized card.\n\nRef: https://developer.paypal.com/webapps/developer/docs/api/#look-up-a-stored-credit-card",
+        "url": "{{sandbox_endpoint}}/vault/credit-card/{credit-card-id}",
+        "method": "GET",
+        "headers": "Accept: application/json\nAccept-Language: en_US\nContent-Type: application/json\nAuthorization: Bearer <YOUR TOKEN HERE>\n",
+        "data": "{\n \"payer_id\":\"user12345\",\n \"type\":\"visa\",\n \"number\":\"4417119669820331\",\n \"expire_month\":\"11\",\n \"expire_year\":\"2018\",\n \"first_name\":\"Joe\",\n \"last_name\":\"Shopper\",\n \"address\": {\n                \"line1\": \"52 N Main ST\",\n                \"city\": \"Johnstown\",\n                \"state\": \"OH\",\n                \"postal_code\": \"43210\",\n                \"country_code\": \"US\"\n              }\n}",
+        "dataMode": "raw",
+        "timestamp": 0,
+        "version": 2,
+        "time": 1389735475313
+    }, {
+        "collectionId": "000e4a27-c1d1-1b43-d80f-66510892b62a",
+        "id": "37f06891-81da-dbb2-600c-8046108d0749",
+        "name": "Delete a Stored Credit Card",
+        "description": "Delete (most of) the details for a card you stored in the Vault. Some data remains available.\n\nRef: https://developer.paypal.com/webapps/developer/docs/api/#delete-a-stored-credit-card",
+        "url": "{{sandbox_endpoint}}/vault/credit-card/{credit-card-id}",
+        "method": "DELETE",
+        "headers": "Accept: application/json\nAccept-Language: en_US\nContent-Type: application/json\nAuthorization: Bearer <YOUR TOKEN HERE>\n",
+        "data": "",
+        "dataMode": "raw",
+        "timestamp": 0,
+        "version": 2,
+        "time": 1389735449079
+    }, {
+        "collectionId": "000e4a27-c1d1-1b43-d80f-66510892b62a",
+        "id": "f6f5cbd5-c7e7-2ad7-025d-09bdf897a27e",
+        "name": "Store a Credit Card",
+        "description": "Securely store a tokenized credit card on PayPal's servers.\n\nRef: https://developer.paypal.com/webapps/developer/docs/api/#store-a-credit-card",
+        "url": "{{sandbox_endpoint}}/vault/credit-card",
+        "method": "POST",
+        "headers": "Accept: application/json\nAccept-Language: en_US\nContent-Type: application/json\nAuthorization: Bearer <YOUR TOKEN HERE>\n",
+        "data": "{\n \"payer_id\":\"user12345\",\n \"type\":\"visa\",\n \"number\":\"4417119669820331\",\n \"expire_month\":\"11\",\n \"expire_year\":\"2018\",\n \"first_name\":\"Joe\",\n \"last_name\":\"Shopper\",\n \"billing_address\": {\n                \"line1\": \"52 N Main ST\",\n                \"city\": \"Johnstown\",\n                \"state\": \"OH\",\n                \"postal_code\": \"43210\",\n                \"country_code\": \"US\"\n              }\n}",
+        "dataMode": "raw",
+        "timestamp": 0,
+        "version": 2,
+        "time": 1389735542793
+    }]
+}
