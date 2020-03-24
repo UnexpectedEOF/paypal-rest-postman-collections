@@ -1,1 +1,32 @@
-{"id":"f6a7fb11-27b0-022d-4745-d2e883efb9ff","name":"PayPal-REST-Sales","timestamp":1389736591544,"requests":[{"collectionId":"f6a7fb11-27b0-022d-4745-d2e883efb9ff","id":"31e6d455-66f9-4a42-4db9-19e7fd628f60","name":"Look Up a Sale Transaction","description":"Get all of the details on a given sale transaction.\n\nRef: https://developer.paypal.com/webapps/developer/docs/api/#look-up-a-sale","url":"{{sandbox_endpoint}}/payments/sale/{sale-id}","method":"GET","headers":"Accept: application/json\nAccept-Language: en_US\nContent-Type: application/json\nAuthorization: Bearer <YOUR TOKEN HERE>\n","data":"{}","dataMode":"raw","timestamp":0,"responses":[],"version":2},{"collectionId":"f6a7fb11-27b0-022d-4745-d2e883efb9ff","id":"b1cf679b-fac9-3a12-b5fe-56d5933c41a7","name":"Refund a Sale Transaction","description":"Issues either a full or partial refund of a completed sale.\n\nRef: https://developer.paypal.com/webapps/developer/docs/api/#refund-a-sale","url":"{{sandbox_endpoint}}/payments/sale/{sale-id}/refund","method":"POST","headers":"Accept: application/json\nAccept-Language: en_US\nContent-Type: application/json\nAuthorization: Bearer <YOUR TOKEN HERE>\n","data":"{}","dataMode":"raw","timestamp":0,"version":2,"time":1389736880209}]}
+{
+    "id": "f6a7fb11-27b0-022d-4745-d2e883efb9ff",
+    "name": "PayPal-REST-Sales",
+    "timestamp": 1389736591544,
+    "requests": [{
+        "collectionId": "f6a7fb11-27b0-022d-4745-d2e883efb9ff",
+        "id": "31e6d455-66f9-4a42-4db9-19e7fd628f60",
+        "name": "Look Up a Sale Transaction",
+        "description": "Get all of the details on a given sale transaction.\n\nRef: https://developer.paypal.com/webapps/developer/docs/api/#look-up-a-sale",
+        "url": "{{sandbox_endpoint}}/payments/sale/{sale-id}",
+        "method": "GET",
+        "headers": "Accept: application/json\nAccept-Language: en_US\nContent-Type: application/json\nAuthorization: Bearer <YOUR TOKEN HERE>\n",
+        "data": "{}",
+        "dataMode": "raw",
+        "timestamp": 0,
+        "responses": [],
+        "version": 2
+    }, {
+        "collectionId": "f6a7fb11-27b0-022d-4745-d2e883efb9ff",
+        "id": "b1cf679b-fac9-3a12-b5fe-56d5933c41a7",
+        "name": "Refund a Sale Transaction",
+        "description": "Issues either a full or partial refund of a completed sale.\n\nRef: https://developer.paypal.com/webapps/developer/docs/api/#refund-a-sale",
+        "url": "{{sandbox_endpoint}}/payments/sale/{sale-id}/refund",
+        "method": "POST",
+        "headers": "Accept: application/json\nAccept-Language: en_US\nContent-Type: application/json\nAuthorization: Bearer <YOUR TOKEN HERE>\n",
+        "data": "{}",
+        "dataMode": "raw",
+        "timestamp": 0,
+        "version": 2,
+        "time": 1389736880209
+    }]
+}
